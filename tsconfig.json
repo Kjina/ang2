@@ -1,0 +1,8 @@
+//javascript 변환시켜줌
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "sourceMap": true       // xxx.js.map 생성
+    }
+}
