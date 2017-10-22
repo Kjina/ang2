@@ -1,4 +1,3 @@
-
 var str = "test";
 var str2 = "test2";
 var num = 3;

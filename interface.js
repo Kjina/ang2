@@ -1,33 +1,31 @@
-var Robot = /** @class */ (function () {
-    function Robot() {
+class Robot {
+    constructor() {
         this.speed = 5;
     }
-    Robot.prototype.run = function () {
+    run() {
         return "로봇이 " + this.speed + " 정도로 뜁니다.";
-    };
-    Robot.prototype.setSpeed = function (speed) {
+    }
+    setSpeed(speed) {
         this.speed = speed;
-    };
-    Robot.prototype.printAddress = function () {
+    }
+    printAddress() {
         return "서울";
-    };
-    return Robot;
-}());
-var Person = /** @class */ (function () {
-    function Person() {
+    }
+}
+class Person {
+    constructor() {
         this.speed = 30;
     }
-    Person.prototype.run = function () {
+    run() {
         return this.speed + "정도로 뜁니다.";
-    };
-    Person.prototype.setSpeed = function (speed) {
+    }
+    setSpeed(speed) {
         this.speed = speed;
-    };
-    Person.prototype.printAddress = function () {
+    }
+    printAddress() {
         return "서울";
-    };
-    return Person;
-}());
+    }
+}
 /*let p:Action = new Person(); // 데이터 타입이 Action이면 호출접근 안됨 -> action에 void 지운다면
 
 // 리턴타입이 없는 경우는 호출만 가능해서 변수에 넣을 수 없음 ?????????????????????????????????????
@@ -46,10 +44,10 @@ function call(vari) {
     console.log(vari.run());
     console.log(vari.printAddress());
 }
-var p = new Person();
+let p = new Person();
 p.setSpeed(70);
 call(p);
-var r = new Robot();
+let r = new Robot();
 r.setSpeed(800);
 call(r);
 //# sourceMappingURL=interface.js.map

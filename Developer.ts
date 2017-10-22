@@ -5,7 +5,7 @@ interface Work{
 }
 
 class Worker2 implements Work{
-    // protected name:string = "홍길동"; protected 는 자식도 사용가능
+    // protected name:string = "홍길동"; protected 는 자식도 사용가능 (상속할 때 사용)
     name:string = "홍길동"; //private name:string = "홍길동"; private 선언하면 name 이라는 변수는 이 안에서만 사용가능
   /*  constructor(name:string){
         this.name = name;

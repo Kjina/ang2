@@ -1,8 +1,11 @@
 //javascript 변환시켜줌
 {
     "compilerOptions": {
-        "target": "es5",
+        "target": "es6",
         "module": "commonjs",
         "sourceMap": true       // xxx.js.map 생성
-    }
+    }/*,
+    "include": [
+        "tsts/*"
+    ]*/
 }
